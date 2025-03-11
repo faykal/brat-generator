@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Download, Whatsapp, Palette, Type } from 'lucide-react';
+import { Download, Palette, Type } from 'lucide-react';
 
 function App() {
   const [text, setText] = useState('');
@@ -218,7 +218,6 @@ function App() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
           >
-            <Whatsapp size={20} />
             <span>Created by Faykal</span>
           </a>
         </footer>
