@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Download, Github, Palette, Type } from 'lucide-react';
+import { Download, Whatsapp, Palette, Type } from 'lucide-react';
 
 function App() {
   const [text, setText] = useState('');
@@ -213,12 +213,12 @@ function App() {
 
         <footer className="mt-auto py-6 text-center">
           <a
-            href="#"
+            href="https://whatsapp.com/channel/0029Vax4ADpI1rcZh3aveq1e"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
           >
-            <Github size={20} />
+            <Whatsapp size={20} />
             <span>Created by Faykal</span>
           </a>
         </footer>
